@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iron Pulse Gym | Creative Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Iron Pulse Gym</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a class="active" href="creative.html">Creative Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="creative-page">
+    <section class="creative-header">
+      <h2>Interactive Fitness Zone</h2>
+      <p>Try our JavaScript-powered gym features.</p>
+      <button id="themeButton" class="button">Toggle Light/Dark Mode</button>
+    </section>
+
+    <section class="creative-grid">
+      <article class="card">
+        <h3>Workout of the Day Generator</h3>
+        <p id="workoutText">Click the button to receive a random workout.</p>
+        <button id="workoutButton" class="button">Generate Workout</button>
+      </article>
+
+      <article class="card">
+        <h3>Membership Promo Countdown</h3>
+        <p>Time left for our spring discount:</p>
+        <p id="countdown" class="countdown">Loading...</p>
+      </article>
+
+      <article class="card slideshow-card">
+        <h3>Gym Image Slideshow</h3>
+        <img id="slideImage" src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=900&q=80" alt="Gym slideshow" />
+        <div class="slide-buttons">
+          <button id="prevSlide" class="button">Previous</button>
+          <button id="nextSlide" class="button">Next</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Iron Pulse Gym. Created for CST 2309 Final Project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
