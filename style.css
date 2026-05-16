@@ -21,6 +21,13 @@ body {
   flex-wrap: wrap;
 }
 
+/* LOGO IMAGE */
+.logo-img {
+  width: 70px;
+  height: auto;
+  margin-right: 15px;
+}
+
 .logo {
   font-size: 28px;
   color: #f97316;
